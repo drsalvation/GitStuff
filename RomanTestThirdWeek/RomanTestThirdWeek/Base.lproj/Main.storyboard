@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RomanTestThirdWeek" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="35f-Ar-OHk">
+                                <rect key="frame" x="257" y="44" width="145" height="30"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Get Joke">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="onButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B97-32-7g0"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gSc-bR-3pd">
+                                <rect key="frame" x="20" y="131" width="382" height="731"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Ug-oO-7ag">
+                                <rect key="frame" x="20" y="82" width="382" height="32"/>
+                                <segments>
+                                    <segment title="Any"/>
+                                    <segment title="Program"/>
+                                    <segment title="Misc"/>
+                                    <segment title="Dark"/>
+                                    <segment title="Favorites"/>
+                                </segments>
+                                <connections>
+                                    <action selector="onIndexChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="Mgb-in-Sg3"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="35f-Ar-OHk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2Zl-oL-eXc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="35f-Ar-OHk" secondAttribute="trailing" constant="12" id="603-BI-X7e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gSc-bR-3pd" secondAttribute="trailing" constant="12" id="Bjg-dL-dm4"/>
+                            <constraint firstItem="gSc-bR-3pd" firstAttribute="top" secondItem="6Ug-oO-7ag" secondAttribute="bottom" constant="18" id="FgX-tP-n7c"/>
+                            <constraint firstItem="6Ug-oO-7ag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="T70-NQ-g8m"/>
+                            <constraint firstItem="gSc-bR-3pd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ayy-Y5-mn2"/>
+                            <constraint firstItem="6Ug-oO-7ag" firstAttribute="top" secondItem="35f-Ar-OHk" secondAttribute="bottom" constant="8" id="ceK-b1-bUy"/>
+                            <constraint firstItem="35f-Ar-OHk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="257" id="lTm-Ef-23d"/>
+                            <constraint firstItem="gSc-bR-3pd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="oy2-jK-k7T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Ug-oO-7ag" secondAttribute="trailing" constant="12" id="w8C-rE-fQN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="theButton" destination="35f-Ar-OHk" id="BaY-H6-6En"/>
+                        <outlet property="theSegmentController" destination="6Ug-oO-7ag" id="s7T-A8-aCv"/>
+                        <outlet property="theTable" destination="gSc-bR-3pd" id="yen-TK-R9Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+</document>
