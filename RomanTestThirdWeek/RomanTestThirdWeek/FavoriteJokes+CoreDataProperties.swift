@@ -22,5 +22,6 @@ extension FavoriteJokes {
     @NSManaged public var joke: String
     @NSManaged public var setup: String
     @NSManaged public var delivery: String
+    @NSManaged public var id: Int64
 
 }

@@ -3,11 +3,12 @@
     <entity name="FavoriteJokes" representedClassName="FavoriteJokes" syncable="YES">
         <attribute name="category" optional="YES" attributeType="String"/>
         <attribute name="delivery" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="joke" optional="YES" attributeType="String"/>
         <attribute name="setup" optional="YES" attributeType="String"/>
         <attribute name="type" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="FavoriteJokes" positionX="-45" positionY="0" width="128" height="118"/>
+        <element name="FavoriteJokes" positionX="-45" positionY="0" width="128" height="133"/>
     </elements>
 </model>
