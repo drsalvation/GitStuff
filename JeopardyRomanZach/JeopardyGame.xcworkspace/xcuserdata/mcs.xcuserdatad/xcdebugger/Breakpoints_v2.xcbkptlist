@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0160A5E3-9183-4B91-BF97-CF2135E9D831"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3575E607-B7D6-4ACA-A8FE-4046F5E613CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JeopardyGameTests/JeopardyGameTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "JeopardyGameTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "094397AA-ACBE-4F83-B784-A6E5992BE561"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JeopardyGameTests/JeopardyGameTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testSample()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "094397AA-ACBE-4F83-B784-A6E5992BE561 - c5dfcded3dec3b41"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JeopardyGameTests.JeopardyGameTests.testSample() -&gt; ()"
+                  moduleName = "JeopardyGameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mcs/Downloads/JeopardyGame%202/JeopardyGameTests/JeopardyGameTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "898">
+               </Location>
+               <Location
+                  uuid = "094397AA-ACBE-4F83-B784-A6E5992BE561 - 28367ca354b05e6a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JeopardyGameTests.JeopardyGameTests.testSample() -&gt; ()"
+                  moduleName = "JeopardyGameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mcs/Downloads/JeopardyGame%202/JeopardyGameTests/JeopardyGameTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "347">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
